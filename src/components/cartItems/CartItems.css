@@ -1,0 +1,29 @@
+.cart-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 120px;
+
+}
+
+.cart-list h5{
+    margin: 2px;
+}
+
+.cart-list h6{
+    margin: 2px;
+}
+
+
+
+.cart-list-img{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin: auto;
+}

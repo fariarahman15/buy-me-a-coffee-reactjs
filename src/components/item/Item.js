@@ -11,7 +11,7 @@ import { BsFillCartPlusFill } from 'react-icons/bs';
             <img className="item-img" src={image} alt=""/>
             <h2>{title}</h2>
             <h4>Price: ${price}</h4>
-            <button onClick={()=>handleCart(id)} className="addToCart-btn">Add to Cart <BsFillCartPlusFill className="icon"/></button>
+            <button onClick={()=>handleCart(item)} className="addToCart-btn">Add to Cart <BsFillCartPlusFill className="icon"/></button>
         </div>
     );
 
