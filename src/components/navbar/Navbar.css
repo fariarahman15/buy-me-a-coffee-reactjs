@@ -1,0 +1,9 @@
+.navbar{
+    background-color: aliceblue;
+    color: sandybrown;
+}
+
+.navbar h1{
+    margin: 0;
+    padding: 15px;
+}
