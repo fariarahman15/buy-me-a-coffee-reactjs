@@ -2,16 +2,16 @@ import React from 'react';
 import './item.css'
 import { BsFillCartPlusFill } from 'react-icons/bs';
 
-    const Item = (props) => {
-        const {image, title, price} = props.item;
-
+    const Item = ({item, handleCart}) => {
+        const {image, title, price, id} = item;
+    
 
     return (
         <div className="item">
             <img className="item-img" src={image} alt=""/>
             <h2>{title}</h2>
             <h4>Price: ${price}</h4>
-            <button className="addToCart-btn">Add to Cart <BsFillCartPlusFill className="icon"/></button>
+            <button onClick={()=>handleCart(id)} className="addToCart-btn">Add to Cart <BsFillCartPlusFill className="icon"/></button>
         </div>
     );
 

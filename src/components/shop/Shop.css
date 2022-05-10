@@ -1,4 +1,11 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .item-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
