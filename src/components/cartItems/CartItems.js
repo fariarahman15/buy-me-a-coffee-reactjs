@@ -11,6 +11,7 @@ const CartItems = ({coffee}) => {
                 <h6>Price: ${price}</h6>
             </div>
         </div>
+        
     );
 };
 
