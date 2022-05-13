@@ -46,7 +46,7 @@ const Shop = () => {
       </div>
 
       <div className="cart">
-        <h1>this is cart</h1>
+        <h1>Cart</h1>
         {cart.map((coffee) => (
           <CartItems key={coffee.id} coffee={coffee}></CartItems>
         ))}

@@ -22,10 +22,10 @@
     .item-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        width: 80%;
+        
       }
 
       .cart {
-        width: 10%;
+        width: 50%;
       }
   }

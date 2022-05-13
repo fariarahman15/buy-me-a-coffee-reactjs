@@ -27,3 +27,16 @@
     border-radius: 10px;
     margin: auto;
 }
+
+@media only screen and (max-width: 600px){
+    .cart-list{
+        width: 70%;
+        margin: 10px;
+    
+    }
+
+    .cart-list-img{
+        width: 100%;
+        
+    }
+  }
