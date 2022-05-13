@@ -39,3 +39,15 @@
   .icon {
     margin-left: 5px;
   }
+
+
+  .addToCart-btn{
+    background-color:#F24968;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 4px 2px;
+    border-radius: 10px;
+  }

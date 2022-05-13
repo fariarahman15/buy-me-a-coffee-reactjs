@@ -50,8 +50,12 @@ const Shop = () => {
         {cart.map((coffee) => (
           <CartItems key={coffee.id} coffee={coffee}></CartItems>
         ))}
-        <button onClick={handleChosenItem}>Choose one</button>
-        <button onClick={handleReset}>Reset</button>
+        <button className="chosenItemBtn" onClick={handleChosenItem}>
+          Choose one
+        </button>
+        <button className="resetBtn" onClick={handleReset}>
+          Reset
+        </button>
 
         {selectedItem && <CartItems coffee={selectedItem}></CartItems>}
       </div>
