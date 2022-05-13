@@ -1,7 +1,6 @@
-.item{
-    height: 300px;
-    width: 350px;
-    border: 1px solid #95A0A7;
+.item {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #95a0a7;
     border-radius: 10px;
     margin: 20px;
     display: flex;
@@ -9,36 +8,34 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    
-}
-
-.item-img{
-    height: 150px;
-    width: 250px;
+  }
+  
+  .item-img {
+    height: auto;
+    width: 50%;
     border-radius: 10px;
-}
-
-.item h2{
+  }
+  
+  .item h2 {
     margin: 5px auto;
-
-}
-
-.item h4{
+  }
+  
+  .item h4 {
     margin: 5px auto;
-}
-
-.item button{
+  }
+  
+  .item button {
     margin: 5px auto;
-}
-
-.addToCart-btn{
+  }
+  
+  .addToCart-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
     padding: 5px;
-}
-
-.icon{
+  }
+  
+  .icon {
     margin-left: 5px;
-}
+  }

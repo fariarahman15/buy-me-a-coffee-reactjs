@@ -1,14 +1,13 @@
 import React from 'react';
 
-const ChosenItem = () => {
-    const Item = ({item, handleCart}) => {
-        const {image, title, price, id} = item;
+const ChosenItem = ({cart, handleChosenItem}) => {
+        
     return (
-        <div className="item">
-            <img className="item-img" src={image} alt=""/>
-            <h2>{title}</h2>
-            <h4>Price: ${price}</h4>
-            <button onClick={()=>handleCart(item)} className="addToCart-btn">Add to Cart <BsFillCartPlusFill className="icon"/></button>
+        <div>
+            <button onClick={()=>handleChosenItem(cart)}>Choose One for me</button>
+            <button>Reset</button>
+            <h5></h5>
+            
         </div>
     );
 };
